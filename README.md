@@ -11,6 +11,16 @@ For this project we were instucted to make a normalized database for Bots Cry Ou
 
 3. Last thing you have to do is just create the database. To do this you will have to create an SQL script yourself to create your schema or import the SQL script from DBDiagram and run it. After you have the schema and all the tables, what I did was go back into google sheets and make a new sheet for each table, not all connections for every prayer are made but there are multiple rows for examples of what the connections look like. Once you have created each table with all the intended information you can download it as a csv and then in mySQL use the Data Import Wizard to get the data into the table, just make sure column names on your sheets are the same as database when importing the data.
 
+## File-Information 
+[relative](/BotsCryOut_ERDiagram.png)
+This file is the design of the Bots Cry Out database. You will see that I made a lot of connector tables to help get the many the many relationship that some of the entities needed.
+
+[relative](/BotsCryOut_DatabaseDesign.sql)
+This SQL script was the one I download from DBDiagram which created my database schema, but none of the tables have the data yet.
+
+[relative](/BotsCryOut_Database.sql)
+This SQL script is the mock database for Bots Cry Out. Not all connections are made for each prayer and there is made up data for likes and saves. But just wanted to add data for reference for how the data is being stored and how the connections would be made.
+
 Hope you guys find this informational and helpful if you decide to try this project yourself!
 
 
